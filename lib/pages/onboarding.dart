@@ -29,7 +29,7 @@ class OnBoarding extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     const Text(
-                      "List your place. Host events.",
+                      "List your place to host events.",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 28,
