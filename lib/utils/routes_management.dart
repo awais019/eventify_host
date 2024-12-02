@@ -1,4 +1,5 @@
 import 'package:eventify_host/controllers/splash.controller.dart';
+import 'package:eventify_host/pages/onboarding.dart';
 import 'package:eventify_host/pages/splash.dart';
 
 import 'package:eventify_host/utils/constants.dart';
@@ -12,6 +13,10 @@ class RoutesManagement {
         name: kSplashRoute,
         page: () => const SplashScreen(),
         binding: BindingsBuilder(() => SplashController()),
+      ),
+      GetPage(
+        name: kOnBoardingRoute,
+        page: () => const OnBoarding(),
       )
     ];
   }

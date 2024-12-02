@@ -1,3 +1,4 @@
+import 'package:eventify_host/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -57,7 +58,20 @@ class SplashController extends GetxController
         curve: Curves.easeInOut,
       ),
     );
-
+    animationController!.addStatusListener(navigateToNext);
     animationController!.forward();
+  }
+
+  void navigateToNext(AnimationStatus status) {
+    if (status == AnimationStatus.completed) {
+      Get.offAllNamed(kOnBoardingRoute);
+    }
+  }
+
+  @override
+  void dispose() {
+    animationController!.removeStatusListener(navigateToNext);
+    animationController!.dispose();
+    super.dispose();
   }
 }
