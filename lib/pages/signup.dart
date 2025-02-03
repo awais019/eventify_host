@@ -1,5 +1,7 @@
 import 'package:eventify_host/components/submit_button.dart';
+import 'package:eventify_host/utils/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
 
 class SignUp extends StatelessWidget {
   const SignUp({super.key});
@@ -80,9 +82,9 @@ class SignUp extends StatelessWidget {
                       ),
                     ),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () => Get.toNamed(kLogInRoute),
                       child: Text(
-                        "Sign in",
+                        "Log in",
                         style: TextStyle(
                           color: Theme.of(context).colorScheme.tertiary,
                           fontSize: 13.0,

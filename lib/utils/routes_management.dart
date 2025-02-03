@@ -1,4 +1,5 @@
 import 'package:eventify_host/controllers/splash.controller.dart';
+import 'package:eventify_host/pages/login.dart';
 import 'package:eventify_host/pages/onboarding.dart';
 import 'package:eventify_host/pages/signup.dart';
 import 'package:eventify_host/pages/splash.dart';
@@ -22,7 +23,11 @@ class RoutesManagement {
       GetPage(
         name: kSignupRoute,
         page: () => const SignUp(),
-      )
+      ),
+      GetPage(
+        name: kLogInRoute,
+        page: () => const Login(),
+      ),
     ];
   }
 }

@@ -67,7 +67,7 @@ class OnBoarding extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () => Get.toNamed(kLogInRoute),
                       child: const Text(
                         "Log In",
                         style: TextStyle(

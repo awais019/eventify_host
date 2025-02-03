@@ -4,3 +4,4 @@ const String kAppName = "Eventify Host";
 const String kSplashRoute = '/splash';
 const String kOnBoardingRoute = '/onboarding';
 const String kSignupRoute = '/signup';
+const String kLogInRoute = '/login';
