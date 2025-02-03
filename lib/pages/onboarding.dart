@@ -1,4 +1,6 @@
+import 'package:eventify_host/utils/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class OnBoarding extends StatelessWidget {
   const OnBoarding({super.key});
@@ -50,7 +52,7 @@ class OnBoarding extends StatelessWidget {
                           ),
                         ),
                       ),
-                      onPressed: () {},
+                      onPressed: () => Get.toNamed(kSignupRoute),
                       child: const Padding(
                           padding: EdgeInsets.symmetric(vertical: 16),
                           child: Text(
