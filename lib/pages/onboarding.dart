@@ -19,10 +19,13 @@ class OnBoarding extends StatelessWidget {
           ),
           Container(
             decoration: const BoxDecoration(
-                gradient: LinearGradient(colors: [
-              Color.fromRGBO(32, 41, 51, 0.32),
-              Color.fromRGBO(32, 41, 51, 1),
-            ])),
+              gradient: LinearGradient(
+                colors: [
+                  Color.fromRGBO(32, 41, 51, 0.32),
+                  Color.fromRGBO(32, 41, 51, 1),
+                ],
+              ),
+            ),
             child: Center(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 32),

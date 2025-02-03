@@ -31,19 +31,6 @@ class SignUp extends StatelessWidget {
                   ),
                   decoration: const InputDecoration(
                     hintText: "Full Name",
-                    hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 255, 255, 0.48),
-                      fontSize: 12,
-                      fontWeight: FontWeight.bold,
-                      height: 1.5,
-                      letterSpacing: 0.24,
-                    ),
-                    fillColor: Color.fromRGBO(49, 62, 85, 0.78),
-                    filled: true,
-                    border: OutlineInputBorder(
-                      borderSide: BorderSide.none,
-                      borderRadius: BorderRadius.all(Radius.circular(10)),
-                    ),
                   ),
                 ),
                 const SizedBox(height: 24.0),
@@ -57,19 +44,6 @@ class SignUp extends StatelessWidget {
                   ),
                   decoration: const InputDecoration(
                     hintText: "Email",
-                    hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 255, 255, 0.48),
-                      fontSize: 12,
-                      fontWeight: FontWeight.bold,
-                      height: 1.5,
-                      letterSpacing: 0.24,
-                    ),
-                    fillColor: Color.fromRGBO(49, 62, 85, 0.78),
-                    filled: true,
-                    border: OutlineInputBorder(
-                      borderSide: BorderSide.none,
-                      borderRadius: BorderRadius.all(Radius.circular(10)),
-                    ),
                   ),
                 ),
                 const SizedBox(height: 24.0),
@@ -84,19 +58,6 @@ class SignUp extends StatelessWidget {
                   ),
                   decoration: const InputDecoration(
                     hintText: "Password",
-                    hintStyle: TextStyle(
-                      color: Color.fromRGBO(255, 255, 255, 0.48),
-                      fontSize: 12,
-                      fontWeight: FontWeight.bold,
-                      height: 1.5,
-                      letterSpacing: 0.24,
-                    ),
-                    fillColor: Color.fromRGBO(49, 62, 85, 0.78),
-                    filled: true,
-                    border: OutlineInputBorder(
-                      borderSide: BorderSide.none,
-                      borderRadius: BorderRadius.all(Radius.circular(10)),
-                    ),
                   ),
                 ),
                 const SizedBox(height: 24.0),
